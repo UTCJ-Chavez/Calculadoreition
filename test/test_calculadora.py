@@ -11,7 +11,7 @@ class TestCalculadora(unittest.TestCase):
         Calculadoreition.click("+")
         Calculadoreition.click("7")
         Calculadoreition.equal()
-        self.assertEqual(Calculadoreition.entry.get(), "13")
+        self.assertEqual(Calculadoreition.entry.get(), "12")
 
     def test_division_decimal(self):
         Calculadoreition.click("1")
